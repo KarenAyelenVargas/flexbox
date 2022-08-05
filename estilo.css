@@ -1,0 +1,107 @@
+* {
+  font-family: "Times New Roman", Georgia, Cambria;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.contenedor1 {
+  border: 1px solid;
+  border-radius: 15px/10px;
+  padding: 1%;
+  height: 6em;
+  background-color: rgb(187, 185, 185);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.encabezado {
+  width: 50%;
+  height: auto;
+  padding: 1%;
+}
+.menu1 {
+  border: 1px solid;
+  width: 40%;
+  height: auto;
+  padding: 1%;
+  background-color: rgb(4, 165, 4);
+}
+.logo {
+  background-color: blue;
+  width: 30%;
+  border: 1px solid;
+  padding: 1%;
+}
+.menu2 {
+  background-color: rgb(128, 34, 34);
+  width: 60%;
+  border: 1px solid;
+  padding: 1%;
+}
+.contenedor2 {
+  height: 26em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.izquierda {
+  border: 1px solid;
+  width: 30%;
+  height: 11em;
+  padding: 1%;
+  border-radius: 15px/10px;
+  background-color: grey;
+}
+.centro {
+  border: 1px solid;
+  width: 30%;
+  height: 11em;
+  padding: 1%;
+  border-radius: 15px/10px;
+  background-color: rgb(23, 185, 185);
+}
+.derecha {
+  border: 1px solid;
+  width: 30%;
+  height: 11em;
+  padding: 1%;
+  border-radius: 15px/10px;
+  background-color: orange;
+}
+.izquierda2 {
+  border: 1px solid;
+  width: 64%;
+  height: 11em;
+  padding: 1%;
+  border-radius: 15px/10px;
+  background-color: rgb(0, 98, 0);
+}
+.derecha2 {
+  border: 1px solid;
+  width: 30%;
+  height: 11em;
+  padding: 1%;
+  border-radius: 15px/10px;
+  background-color: rgb(194, 52, 52);
+}
+.contenedor3 {
+  border: 1px solid;
+  padding: 1%;
+  margin-top: 1%;
+  height: auto;
+  border-radius: 15px/10px;
+  background-color: cyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+}
+.elemento {
+  width: 20%;
+  padding: 1%;
+  border: 1px solid;
+  background-color: blue;
+}
